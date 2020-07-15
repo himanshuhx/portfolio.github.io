@@ -1,4 +1,3 @@
-.aux-logo-header .aux-logo-anchor {max-width: 80px;}
 .aux-logo-header .aux-logo-anchor > img {max-height: 85px;}
 @media screen and (min-width: 700px) {.aux-framed .aux-side-frames, body.aux-framed:after, .aux-framed .aux-side-frames:before, .aux-framed .aux-side-frames:after {background-color: #111;}}
 .site-header-section.aux-sticky, .aux-elementor-header.aux-sticky {background-color: #fff;}
