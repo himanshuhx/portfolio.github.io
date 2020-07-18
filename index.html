@@ -12,6 +12,10 @@
 
 
 <link rel="stylesheet" id="wp-block-library-css" href="https://himanshuhx.github.io/portfolio.github.io/wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="preloader-plus-css" href="https://himanshuhx.github.io/portfolio.github.io/wp-content/plugins/preloader-plus/assets/css/preloader-plus.min.css" type="text/css" media="all">
+<style id="preloader-plus-inline-css" type="text/css">
+.preloader-plus {background-color: #28003f; }body.complete > *:not(.preloader-plus),.preloader-plus {transition-duration: 1000ms,1000ms,0s; }.preloader-plus * {color: #ffffff; }.preloader-plus.complete {opacity: 0; transform:  scale(1); transition-delay: 0s,0s,1000ms; }.preloader-plus .preloader-site-title {font-weight: normal; font-size: 50px; text-transform: none; }.preloader-plus #preloader-counter {font-weight: 400; font-size: 240px; }.preloader-plus .preloader-plus-custom-content {font-weight: bold; font-size: 24px; text-transform: none; }.preloader-plus-default-icons {width: 150px; height: 150px; }.preloader-plus .preloader-custom-img {animation: preloader-none 1500ms linear infinite; width: 250px; }.preloader-plus .prog-bar {height: 0px; background-color: #dd3333; }.preloader-plus .prog-bar-bg {height: 0px; background-color: #919191; }.preloader-plus .prog-bar-wrapper {top: 0; padding-top: 0; width: 100%; }
+</style>
 <link rel="stylesheet" id="elementor-icons-css" href="https://himanshuhx.github.io/portfolio.github.io/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="elementor-animations-css" href="https://himanshuhx.github.io/portfolio.github.io/wp-content/plugins/elementor/assets/lib/animations/animations.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="elementor-frontend-css" href="https://himanshuhx.github.io/portfolio.github.io/wp-content/plugins/elementor/assets/css/frontend.min.css" type="text/css" media="all">
@@ -33,7 +37,7 @@
 <link rel="stylesheet" id="auxin-third-party-css" href="https://himanshuhx.github.io/portfolio.github.io/wp-content/themes/phlox/css/other/third-party.css" type="text/css" media="all">
 <link rel="stylesheet" id="auxin-custom-css" href="https://himanshuhx.github.io/portfolio.github.io/wp-content/uploads/phlox/custom.css" type="text/css" media="all">
 <link rel="stylesheet" id="elementor-post-152-css" href="https://himanshuhx.github.io/portfolio.github.io/wp-content/uploads/elementor/css/post-152.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Audiowide%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CShare+Tech+Mono%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CTitillium+Web%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&ver=5.4.2" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Audiowide%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CShare+Tech+Mono%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CBaloo+Paaji%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CTitillium+Web%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&ver=5.4.2" type="text/css" media="all">
 <link rel="stylesheet" id="google-earlyaccess-2-css" href="https://fonts.googleapis.com/earlyaccess/opensanshebrew.css?ver=5.4.2" type="text/css" media="all">
 <link rel="stylesheet" id="elementor-icons-shared-0-css" href="https://himanshuhx.github.io/portfolio.github.io/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-solid-css" href="https://himanshuhx.github.io/portfolio.github.io/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css" type="text/css" media="all">
@@ -51,6 +55,12 @@ function auxinNS(n){for(var e=n.split("."),a=window,i="",r=e.length,t=0;r>t;t++)
 </script>
 <script type="text/javascript" src="https://himanshuhx.github.io/portfolio.github.io/wp-includes/js/jquery/jquery.js"></script>
 <script type="text/javascript" src="https://himanshuhx.github.io/portfolio.github.io/wp-includes/js/jquery/jquery-migrate.min.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var preloader_plus = {"animation_delay":"500","animation_duration":"1000"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://himanshuhx.github.io/portfolio.github.io/wp-content/plugins/preloader-plus//assets/js/preloader-plus.min.js"></script>
 <script type="text/javascript" src="https://himanshuhx.github.io/portfolio.github.io/wp-content/themes/phlox/js/solo/modernizr-custom.min.js"></script>
 
 
@@ -681,9 +691,9 @@ function auxinNS(n){for(var e=n.split("."),a=window,i="",r=e.length,t=0;r>t;t++)
 				<i aria-hidden="true" class="fas fa-map-marker-alt"></i>				</span>
 			</div>
 						<div class="elementor-icon-box-content">
-				<h2 class="elementor-icon-box-title">
+				<h4 class="elementor-icon-box-title">
 					<span>Address</span>
-				</h2>
+				</h4>
 								<p class="elementor-icon-box-description">VAISHALI, BIHAR - 843114</p>
 							</div>
 		</div>
@@ -697,10 +707,10 @@ function auxinNS(n){for(var e=n.split("."),a=window,i="",r=e.length,t=0;r>t;t++)
 				<i aria-hidden="true" class="fas fa-phone-volume"></i>				</span>
 			</div>
 						<div class="elementor-icon-box-content">
-				<h2 class="elementor-icon-box-title">
+				<h4 class="elementor-icon-box-title">
 					<span>Contact no</span>
-				</h2>
-								<p class="elementor-icon-box-description">Tel : +91 - 7549477831,
+				</h4>
+								<p class="elementor-icon-box-description">+91 - 7549477831,
 +91 - 8825298353
 </p>
 							</div>
@@ -721,9 +731,9 @@ function auxinNS(n){for(var e=n.split("."),a=window,i="",r=e.length,t=0;r>t;t++)
 				<i aria-hidden="true" class="far fa-envelope"></i>				</span>
 			</div>
 						<div class="elementor-icon-box-content">
-				<h2 class="elementor-icon-box-title">
+				<h4 class="elementor-icon-box-title">
 					<span>Email</span>
-				</h2>
+				</h4>
 								<p class="elementor-icon-box-description">himanshusumanpatna@gmail.com
 </p>
 							</div>
@@ -738,9 +748,9 @@ function auxinNS(n){for(var e=n.split("."),a=window,i="",r=e.length,t=0;r>t;t++)
 				<i aria-hidden="true" class="fab fa-linkedin"></i>				</a>
 			</div>
 						<div class="elementor-icon-box-content">
-				<h2 class="elementor-icon-box-title">
+				<h4 class="elementor-icon-box-title">
 					<a href="https://www.linkedin.com/in/himanshu2418">Linkedin</a>
-				</h2>
+				</h4>
 								<p class="elementor-icon-box-description">www.linkedin.com/in/himanshu2418
 </p>
 							</div>
@@ -873,7 +883,63 @@ function auxinNS(n){for(var e=n.split("."),a=window,i="",r=e.length,t=0;r>t;t++)
 
     <div class="aux-goto-top-btn aux-align-btn-right" data-animate-scroll="1"><div class="aux-hover-slide aux-arrow-nav aux-round aux-outline">    <span class="aux-overlay"></span>    <span class="aux-svg-arrow aux-h-small-up"></span>    <span class="aux-hover-arrow aux-svg-arrow aux-h-small-up aux-white"></span></div></div>
 
-<script type="text/javascript" src="https://himanshuhx.github.io/portfolio.github.io/wp-includes/js/imagesloaded.min.js"></script>
+		 <div class="preloader-plus"> 			 <div class="preloader-content">   						<h1 class="preloader-site-title"> Himanshu Suman Portfolio</h1> 
+ <div class="lds-css ng-scope">
+   <div class="lds-ripple preloader-plus-default-icons">
+     <div></div>
+     <div></div>
+   </div>
+ <style type="text/css">@keyframes lds-ripple {
+   0% {
+ 		transform: scale(0);
+     opacity: 1;
+   }
+   100% {
+     transform: scale(1);
+     opacity: 0;
+   }
+ }
+ @-webkit-keyframes lds-ripple {
+   0% {
+ 		transform: scale(0);
+     opacity: 1;
+   }
+   100% {
+ 		transform: scale(1);
+     opacity: 0;
+   }
+ }
+ .lds-ripple {
+   position: relative;
+ }
+ .lds-ripple div {
+   box-sizing: content-box;
+   position: absolute;
+ 	 width:100%;
+ 	 height:100%;
+   border-width: 4px;
+   border-style: solid;
+   opacity: 1;
+   border-radius: 50%;
+   -webkit-animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+   animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+ }
+ .lds-ripple div:nth-child(1) {
+   border-color: #ffffff;
+ }
+ .lds-ripple div:nth-child(2) {
+   border-color: #ffffff;
+   -webkit-animation-delay: -0.5s;
+   animation-delay: -0.5s;
+ }
+ .lds-ripple {
+   -webkit-transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+   transform: translate(-100px, -100px) scale(1) translate(100px, 100px);
+ }
+ </style></div>
+
+			 </div>
+		 </div> <script type="text/javascript" src="https://himanshuhx.github.io/portfolio.github.io/wp-includes/js/imagesloaded.min.js"></script>
 <script type="text/javascript" src="https://himanshuhx.github.io/portfolio.github.io/wp-includes/js/masonry.min.js"></script>
 <script type="text/javascript" src="https://himanshuhx.github.io/portfolio.github.io/wp-content/themes/phlox/js/plugins.min.js"></script>
 <script type="text/javascript" src="https://himanshuhx.github.io/portfolio.github.io/wp-content/plugins/auxin-elements/admin/assets/js/elementor/widgets.js"></script>
