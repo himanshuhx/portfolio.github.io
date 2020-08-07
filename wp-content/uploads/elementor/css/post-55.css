@@ -105,7 +105,7 @@
 .elementor-55 .elementor-element.elementor-element-096a014 .widget-content {color: #ababab !important;margin-top: 20px;margin-bottom: 0px;}
 .elementor-55 .elementor-element.elementor-element-096a014 .aux-widget-text .aux-text-widget-content {padding: 30px 15px 30px 15px;}
 .elementor-55 .elementor-element.elementor-element-096a014 .aux-widget-advanced-text {text-align: center !important;padding: 0px 0px 0px 0px;}
-.elementor-55 .elementor-element.elementor-element-096a014 > .elementor-widget-container {margin: 0px 0px 0px 0px;padding: 100px 120px 120px 120px;}
+.elementor-55 .elementor-element.elementor-element-096a014 > .elementor-widget-container {margin: 0px 0px 0px 0px;padding: 50px 120px 120px 120px;}
 .elementor-55 .elementor-element.elementor-element-c706376 .aux-text-widget-header {background-color: transparent;background-image: linear-gradient(0deg,#a42386 0%,#fbef00 77%);}
 .elementor-55 .elementor-element.elementor-element-c706376 .aux-widget-text .aux-text-widget-header {padding: 64px 20px 64px 20px;}
 .elementor-55 .elementor-element.elementor-element-c706376 .aux-ico {font-size: 16px;}
@@ -115,9 +115,9 @@
 .elementor-55 .elementor-element.elementor-element-c706376 .widget-content {color: #aca9a9 !important;margin-top: 0px;margin-bottom: 10px;}
 .elementor-55 .elementor-element.elementor-element-c706376 .aux-widget-text .aux-text-widget-content {padding: 35px 15px 35px 15px;}
 .elementor-55 .elementor-element.elementor-element-c706376 .aux-widget-advanced-text {text-align: center !important;padding: 1px 1px 5px 1px;}
-.elementor-55 .elementor-element.elementor-element-c706376 > .elementor-widget-container {margin: 0px 0px 0px 40px;padding: 100px 100px 100px 100px;}
+.elementor-55 .elementor-element.elementor-element-c706376 > .elementor-widget-container {margin: 0px 0px 0px 40px;padding: 50px 100px 100px 100px;}
 .elementor-55 .elementor-element.elementor-element-391522a6:not(.elementor-motion-effects-element-type-background), .elementor-55 .elementor-element.elementor-element-391522a6 > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #14607f;}
-.elementor-55 .elementor-element.elementor-element-391522a6 {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;margin-top: 0px;margin-bottom: 0px;padding: 100px 0px 145px 0px;}
+.elementor-55 .elementor-element.elementor-element-391522a6 {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;margin-top: -50px;margin-bottom: 0px;padding: 100px 0px 145px 0px;}
 .elementor-55 .elementor-element.elementor-element-391522a6 > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
 .elementor-55 .elementor-element.elementor-element-391522a6 > .elementor-shape-top .elementor-shape-fill {fill: #1a1a1c;}
 .elementor-55 .elementor-element.elementor-element-391522a6 > .elementor-shape-top svg {height: 100px;}
@@ -264,24 +264,24 @@
 	.elementor-55 .elementor-element.elementor-element-3760040 > .elementor-widget-container {margin: 28px 0px -42px 2px;}
 	.elementor-55 .elementor-element.elementor-element-4a9a770 {text-align: left;}
 	.elementor-55 .elementor-element.elementor-element-4a9a770 .elementor-heading-title {font-size: 50px;line-height: 1em;}
-	.elementor-55 .elementor-element.elementor-element-4a9a770 > .elementor-widget-container {margin: 17px 0px -16px -2px;}
+	.elementor-55 .elementor-element.elementor-element-4a9a770 > .elementor-widget-container {margin: 16px 0px -16px -2px;}
 	.elementor-55 .elementor-element.elementor-element-7fe8c27 .elementor-heading-title {font-size: 36px;line-height: 1em;}
-	.elementor-55 .elementor-element.elementor-element-7fe8c27 > .elementor-widget-container {margin: -18px 0px 0px 0px;}
+	.elementor-55 .elementor-element.elementor-element-7fe8c27 > .elementor-widget-container {margin: -20px 0px 0px 0px;}
 	.elementor-55 .elementor-element.elementor-element-920eae9 {margin-top: 0px;margin-bottom: 0px;padding: 15px 0px 8px 0px;}
 	.elementor-55 .elementor-element.elementor-element-c54c0db .aux-widget-text .aux-text-widget-content {padding: 20px 10px 20px 10px;}
-	.elementor-55 .elementor-element.elementor-element-c54c0db > .elementor-widget-container {margin: 0px 0px 0px 0px;padding: 5px 5px 5px 5px;}
+	.elementor-55 .elementor-element.elementor-element-c54c0db > .elementor-widget-container {margin: 0px -5px 0px -5px;padding: 15px 0px 0px 0px;}
 	.elementor-55 .elementor-element.elementor-element-be4d24f .aux-widget-text .aux-text-widget-content {padding: 20px 10px 20px 10px;}
-	.elementor-55 .elementor-element.elementor-element-be4d24f > .elementor-widget-container {padding: 15px 5px 5px 5px;}
+	.elementor-55 .elementor-element.elementor-element-be4d24f > .elementor-widget-container {margin: 0px -5px 0px -5px;padding: 15px 0px 0px 0px;}
 	.elementor-55 .elementor-element.elementor-element-86aee91 .aux-widget-text .aux-text-widget-content {padding: 20px 10px 20px 10px;}
-	.elementor-55 .elementor-element.elementor-element-86aee91 > .elementor-widget-container {padding: 15px 4px 5px 4px;}
+	.elementor-55 .elementor-element.elementor-element-86aee91 > .elementor-widget-container {margin: -5px -6px 0px -4px;padding: 15px 0px 0px 0px;}
 	.elementor-55 .elementor-element.elementor-element-f2c8c38 {margin-top: 0px;margin-bottom: 0px;padding: 0px 0px 20px 0px;}
 	.elementor-55 .elementor-element.elementor-element-096a014 .aux-widget-text .aux-text-widget-content {padding: 20px 10px 20px 10px;}
-	.elementor-55 .elementor-element.elementor-element-096a014 > .elementor-widget-container {margin: 0px -7px 0px -7px;padding: 0px 1px 5px 1px;}
+	.elementor-55 .elementor-element.elementor-element-096a014 > .elementor-widget-container {margin: 0px -5px 0px -5px;padding: 0px 0px 0px 0px;}
 	.elementor-55 .elementor-element.elementor-element-c706376 .col-title {margin-bottom: 22px;}
 	.elementor-55 .elementor-element.elementor-element-c706376 .aux-widget-text .aux-text-widget-content {padding: 18px 10px 18px 10px;}
 	.elementor-55 .elementor-element.elementor-element-c706376 .widget-content {margin-top: 0px;margin-bottom: 0px;}
 	.elementor-55 .elementor-element.elementor-element-c706376 .aux-widget-advanced-text {padding: 0px 0px 0px 0px;}
-	.elementor-55 .elementor-element.elementor-element-c706376 > .elementor-widget-container {margin: 0px -3px 0px -4px;padding: 1px 0px 1px 0px;}
+	.elementor-55 .elementor-element.elementor-element-c706376 > .elementor-widget-container {margin: 0px -5px 0px -5px;padding: 10px 0px 0px 0px;}
 	.elementor-55 .elementor-element.elementor-element-391522a6 {margin-top: 0px;margin-bottom: 0px;}
 	.elementor-55 .elementor-element.elementor-element-541352b3 {margin-top: -19px;margin-bottom: 0px;padding: 0px 0px 0px 0px;}
 	.elementor-55 .elementor-element.elementor-element-7a0f7723 .elementor-heading-title {font-size: 12px;}
